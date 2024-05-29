@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Singla</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="header">
+            <nav id="nav">
+                <ul id="Sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I am <span>Gaurav</span>,<br> a sophomore in Data Analytics and Web-Development domains with a handful work experience in leading a few real-life projects.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1"><img src="images/user.png"/>
+                </div>
+                <div class="about-col2"><h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, temporibus iure officia obcaecati fugit aspernatur eaque sint distinctio, quod libero doloremque maiores qui numquam nam dolore quisquam reprehenderit! Obcaecati, praesentium?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Qualification')">Qualification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building app for Andriod/iOS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building app for Andriod</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Qualification">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Developmen</li>
+                            <li><span>App Development</span><br>Building app for Andriod</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------Services------------------>
+<div id="services">
+    <div id="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-solid fa-2x fa-code"></i>
+                <h2 id="Hello">Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Tempora vitae architecto illum, 
+                    quam neque quia iure ducimus eius quod nihil dolor iste in dolorum obcaecati, nesciunt illo? Enim, nemo quos?
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-2x fa-crop"></i>
+                <h3 id="Hello">Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae architecto illum, quam neque quia iure ducimus eius quod nihil dolor iste in dolorum obcaecati, nesciunt illo? Enim, nemo quos?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fab fa-2x fa-app-store"></i>
+                <h4 id="Hello">App Development</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora vitae architecto illum, quam neque quia iure ducimus eius quod nihil dolor iste in dolorum obcaecati, nesciunt illo? Enim, nemo quos?</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------PortFolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">
+            My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\singl\Downloads\tictactoe.jpeg" height="260px" width="260px" alt="1"/>
+                <div class="layer">
+                    <h5><b><u>Tic-Tac-Toe</u></b></h5>
+                    <a href="#" ><i class="fa-solid fa-2x fa-cube"></i></a>
+                    <p>An application that enhances brain power and IQ level of the user while engaging the user as he is enjoying a game. </p>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="work">
+                <img src="C:\Users\singl\Downloads\rps.jpeg" height="260px" width="260px" alt="2"/>
+                <div class="layer">
+                    <h5><b><u>Rock Paper Scissors</u></b></h5>
+                    <a href="#" ><i class="fa-solid fa-2x fa-hand-fist"></i></a>
+                    <p>An application that enhances brain power and IQ level of the user while engaging the user as he is enjoying a game without using a full hand, just a click!. </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\singl\Downloads\spotify.jpeg" height="260px" width="260px" alt="3"/>
+                <div class="layer">
+                    <h5><b><u>Spotify</u></b></h5>
+                    <a href="#" ><i class="fa-solid fa-2x fa-music"></i></a>
+                    <p>An application that transmits music towards the core of the user while engaging him,with the authentic music, from the house of Spotify.Inc with an offline yet immersive playing experience.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <br><a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-----------------Contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact</h1>
+                <p><a href="#"><i class="fa-regular fa-envelope"></i></a>  singlagaurav1311@gmail.com</p>
+                <p><a href="#"><i class="fa-solid fa-mobile"></i></a>  +91 8769246606</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gaurav-singla-7976a1248/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BZXaQmddBQ%2BCqN%2Fw0a9SZDw%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    <br><a href="https://www.instagram.com/gauravx1113/#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            <a class="btn" download href="">Download CV</a></div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required><br>
+                    <input type="text" name="Email" placeholder="Your Email" required;><br>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Gaurav Singla</p>
+    </div>
+</div>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxpgfhmcYRd3HId0s5w2ClJ9tJ8YMJ_7jyyesqrysHGWJRxtu-tThUlRwITmvl6VxIYOg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML='Message sent successfully!'
+    }
+    )
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+<script src="https://kit.fontawesome.com/f6223f4bf2.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>  
+
+
+
+
+                    
+                
+                
